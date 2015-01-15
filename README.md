@@ -109,7 +109,7 @@ Follow the simple guideline below to document the bugs you find! (Explanation be
 - When in game find an axe
 - Pick it up
 - Le crash
-- 
+
 **External Info:** Images/Videos and so forth go here.
 
 **Crash Report:** Did not supply a crash report.
