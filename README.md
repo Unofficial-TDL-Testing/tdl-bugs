@@ -1,6 +1,7 @@
 # tdl-bugs
 Unofficial bug tracking for 'The Dead Linger' by Sandswept Studios. http://www.thedeadlinger.com/
 
+-----------------------------
 
 ##**How to Bug Report** :thumbsup:
 - On the side bar there is an "issues" tab.
@@ -8,6 +9,8 @@ Unofficial bug tracking for 'The Dead Linger' by Sandswept Studios. http://www.t
 - Select an appropriote Title and label for it.
 - Set appropriote Milestone (what build it is)
 - Then follow the guideline below.
+
+-----------------------------
 
 ###*What to Do?**
 Follow the simple guideline below to document the bugs you find! (Explanation below)
@@ -38,8 +41,8 @@ Follow the simple guideline below to document the bugs you find! (Explanation be
 
 **Additional Info:**
 
-
 -----------------------------
+
 ####**Explanations**
 **Date:** The date you wrote it up on.
 
@@ -87,9 +90,7 @@ Follow the simple guideline below to document the bugs you find! (Explanation be
 
 **Additional Info:** Any additional info you can think off really.
 
-
 -----------------------------
-
 
 #####**Example**
 
@@ -119,6 +120,5 @@ Follow the simple guideline below to document the bugs you find! (Explanation be
 **Reported Status:**  [Y]/[N]
 
 **Fixed:** [Y]/[N]
-
 
 -----------------------------
