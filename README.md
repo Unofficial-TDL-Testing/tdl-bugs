@@ -94,19 +94,31 @@ Follow the simple guideline below to document the bugs you find! (Explanation be
 #####**Example**
 
 **Date:** 14/01/2015
+
 **Name:** The Crash of Doom
+
 **Build:** 18c
+
 **Bug Type:** Crash
+
 **Severity:** Black
+
 **Brief Description:** When picking up an axe, the game immediately crashes.
+
 **How to Reproduce:**
 - When in game find an axe
 - Pick it up
 - Le crash
+- 
 **External Info:** Images/Videos and so forth go here.
+
 **Crash Report:** Did not supply a crash report.
+
 **Logs:** http://pastebin.com/JfdVDKPn
+
 **Reported Status:**  [Y]/[N]
+
 **Fixed:** [Y]/[N]
+
 
 -----------------------------
