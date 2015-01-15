@@ -7,7 +7,7 @@ Unofficial bug tracking for 'The Dead Linger' by Sandswept Studios. http://www.t
 - Click that and then select "New Issue" (If the issue already exists, add a comment to it)
 - Select an appropriote Title and label for it.
 - Set appropriote Milestone (what build it is)
-- Then follow the guideling below.
+- Then follow the guideline below.
 
 ###*What to Do?**
 Follow the simple guideline below to document the bugs you find! (Explanation below)
