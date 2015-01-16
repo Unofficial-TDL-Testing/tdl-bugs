@@ -50,7 +50,7 @@ Verify - A potential fix has been released and should be verified before the iss
 
 **Frequency:**
 
-**Reported Status:** [Y]/[N]
+**Forum Link:**
 
 **Steps to Reproduce:**
 
@@ -87,6 +87,7 @@ in-game action depending on the bug
 - *Frequent:* A bug that occurs very often but is not constant or every time for a specific action
 - *Always:* A bug that is always present, or occurs every time a specific action is performed
 
+**Forum Link:** A link to the associated bug report on the Sandswept or Steam forums, if it doens't exist create one  
 **Steps to Reproduce:** State word by word how to reproduce the issue, if unknown then give a description of what you
 were doing when the bug occurred even if doing the same actions did not reproduce it  
 **External Links:** Images/Videos and so forth go here, imgur.com and youtube.com are useful resources for hosting
@@ -95,7 +96,6 @@ images and videos respectively
 are both acceptable  
 **Logs:** If logs are available supply a link here, use pastebin.com or another website to store it rather than pasting
 the entire log here  
-**Reported Status:** Whether or not the issue has been reported on the Sandswept forums  
 **Additional Info:** Any additional info you can think off really, including more in depth description if applicable  
 
 #### Example
