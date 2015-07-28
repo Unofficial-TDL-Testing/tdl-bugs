@@ -136,9 +136,58 @@ TDL.exe has stopped responding! ERROR 1337: OutOfAxesException
 I cannot chop down trees without an axe and it makes me sad.
 ```
 
-## Report Lifecycle
+## Information for Bug Managers
 
-This section is intended primarily for bug tracker managers who have the power to manage reports but will be useful to
-anyone who wants to understand our bug tracking process.
+*This section is intended primarily for bug tracker managers who have the power to manage reports but will be useful to
+anyone who wants to understand our bug tracking process.*
 
-TODO
+### Report Lifecycle
+
+1. When a new issue is logged ensure that follows the format described above and update or ask for additional
+information as needed. If the issue is determined to be a duplicate or not actually a bug then update it with the
+appropriate label and close the issue, be sure to post an explanation of why the issue was closed.
+2. If the developers state that they are actively investigating or in the process of fixing an issue then add the `in
+progress` label and post a link to the relevant statement from the developers.
+3. When the changelog for a build or a statement from a developer indicates that a bug has been fixed add the `verify`
+label and post a link to where it is stated that the bug has been fixed.
+4. If an issue is marked for verification and unclaimed then any tester can assign themselves to the issue and take
+responsibility for checking whether the bug has been fixed. Posting proof of verification would be ideal but is not
+required.
+5. When the bug has been verified as resolved then the assigned tester should close the issue.
+6. In the case that a bug turns out to have only been partially fixed or otherwise was incorrectly closed the existing
+issue should be reopened rather than logging a new one.
+
+### Feature Lifecycle
+
+1. When a feature for an upcoming build is announced or appears in a changelog it should be added to the appropriate
+feature file in the versions directory with an empty checkbox `[ ]`. However we should probably only do this for the
+next build or two as the plans for builds beyond that may change at any time. This can be done directly in the GitHub
+web editor for convenience, try to add a descriptive commit message rather than using the default.
+2. Once a build is released any tester may add their name next to it to claim it for testing. For the sake of
+thoroughness it is perfectly acceptable if more than one tester claims a feature.
+3. If any bugs are encountered log issues for them and report them on the Sandswept forums following the instructions
+above.
+4. When a feature has been thoroughly tested mark it as completed by placing an 'x' in its checkbox `[x]`.
+
+### Updating README.md
+
+If you think that something could be improved in this README file or have suggestions to improve our process you can
+submit a pull request to update it. A pull request can be done as follows:
+
+1. Create a new branch using the dropdown labled `Branch: master` and entering a descriptive name in the textbox.
+2. On your branch (not master!) edit the README.md file, either in the GitHub web editor or locally on your computer if
+you know how. For help with formatting refer to
+[GitHub's help pages](https://help.github.com/articles/markdown-basics/).
+3. When your changes are ready press the green button next to the branch dropdown while on your branch. From this screen
+you can review your changes one last time then press `Create Pull Request`.
+4. Enter a descriptive title and a good description of what you want to change and why then submit your pull request.
+5. Discussion will then happen on the pull request page and if people are satisfied with the change they should create
+a comment saying +1 or :+1: to indicate their approval. (This makes it quick and easy to see/count approval.) If you're
+not satisfied with a proposed change then please explain why on the pull request so that your concerns can be addressed.
+6. Once everyone's concerns have been addressed and you have approval from an organization owner or two or more
+Bug Managers/Admins then you can merge the pull request using the provided button (in some cases this may require manual
+merging, contact [jpeg](https://github.com/jpeg) if you need help).
+  - NOTE: This is just a quickly thrown together approval process. We should discuss how we want it to work in as a
+  community at some point. If you have an idea you can always submit a pull request!
+7. After merging double check the README.md file in master to ensure that the merge went as expected, sometimes
+something may go wrong and need to be fixed.
